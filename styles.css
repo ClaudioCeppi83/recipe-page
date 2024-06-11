@@ -20,14 +20,19 @@
         --darkCharcoal: hsl(24, 5%, 18%);
 }
 /** global settings **/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
 * {
     margin: 0; padding: 0;
 }
 *, *::before, *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 body {
     min-height: 100dvh;
+    font-size: 1.6rem;
 }
 input, button, textarea, select {
     font: inherit;
