@@ -10,7 +10,7 @@
         --nutmeg: hsl(14, 45%, 36%);
         --darkRaspberry: hsl(332, 51%, 32%);
         
-        /** Neutral **/
+        /** Secondary **/
         
         --white: hsl(0, 0%, 100%);
         --roseWhite: hsl(330, 100%, 98%);
@@ -19,35 +19,28 @@
         --wengeBrown: hsl(30, 10%, 34%);
         --darkCharcoal: hsl(24, 5%, 18%);
 }
-
+/** global settings **/
 * {
     margin: 0; padding: 0;
 }
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
 body {
     min-height: 100dvh;
 }
-
 input, button, textarea, select {
     font: inherit;
 }
-
 p {
     text-wrap: pretty;
 }
-
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
 }
-
 img, video, svg {
     height: auto; max-width: 100%;
 }
-
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
