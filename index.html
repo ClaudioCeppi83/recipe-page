@@ -12,8 +12,8 @@
   </head>
   <body>
     <header class="header">
-      <section class="header__img">
-        <img src="assets/images/image-omelette.jpeg" alt="omelette image">
+      <section class="header__img-container">
+        <img class="header__img" src="assets/images/image-omelette.jpeg" alt="omelette image">
       </section>
     </header>    
     <main class="container">
@@ -56,18 +56,23 @@
       <section class="container__nutrition">
         <h2 class="container__nutrition--title">Nutrition</h2>
         <p class="container__nutrition--p">The table below shows nutritional values per serving without the additional fillings.</p>
-        <table>
-          Calories
-          277kcal
-      
-          Carbs
-          0g
-      
-          Protein
-          20g
-      
-          Fat
-          22g
+        <table class="nutrition__table">
+          <tr>
+            <td class="td_left">Calories</td>
+            <td class="td_rigth"><strong>277kcal</strong></td>
+          </tr>
+          <tr>
+            <td class="td_left">Carbs</td>
+            <td class="td_rigth"><strong>0g</strong></td>
+          </tr>
+          <tr>
+            <td class="td_left">Protein</td>
+            <td class="td_rigth"><strong>20g</strong></td>
+          </tr>
+          <tr>
+            <td class="td_left">Fat</td>
+            <td class="td_rigth"><strong>22g</strong></td>
+          </tr>
         </table>
       </section>
     </main>
